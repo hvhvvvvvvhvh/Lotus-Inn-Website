@@ -119,16 +119,21 @@ export default function Layout({ children }) {
             </Link>
           </h2>
 
-          <button
-            type="button"
-            className={`mobile-toggle ${menuOpen ? 'active' : ''}`}
-            onClick={() => setMenuOpen((prev) => !prev)}
-            aria-label="Toggle navigation menu"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
+<button
+  type="button"
+  className={`mobile-toggle ${menuOpen ? 'active' : ''}`}
+  onClick={() => setMenuOpen((prev) => !prev)}
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<nav className={`menu ${menuOpen ? 'show' : ''}`}>
+  <div className="mobile-menu-logo">
+    <img src="/images/LotusInnLogo.png" alt="Lotus Inn" />
+  </div>
+</nav>
 
           <div
             className={`mobile-menu-overlay ${menuOpen ? 'show' : ''}`}
