@@ -113,7 +113,7 @@ export default function Layout({ children }) {
           <h2 className="logo">
             <Link href="/" onClick={closeMenu}>
               <img
-                src={header?.logo || '/LotusInnLogo.png'}
+                src={header?.logo || '/images/LotusInnLogo.png'}
                 alt="Lotus Inn Guest House"
               />
             </Link>
@@ -188,6 +188,9 @@ export default function Layout({ children }) {
 
             <p>
               <strong>Phone:</strong> {footer?.contact?.phone || ''}
+            </p>
+            <p>
+              <strong>Land Line:</strong> {footer?.contact?.landline || ''}
             </p>
 
             <p>

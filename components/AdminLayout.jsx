@@ -6,6 +6,7 @@ const navItems = [
   { href: '/admin/rooms', label: 'Rooms Management', icon: 'fa-solid fa-bed' },
   { href: '/admin/availability', label: 'Room Availability', icon: 'fa-solid fa-door-open' },
   { href: '/admin/bookings', label: 'Bookings', icon: 'fa-solid fa-calendar-check' },
+  { href: '/admin/expenses', label: 'Expenses', icon: 'fa-solid fa-wallet' },
   { href: '/admin/amenities', label: 'Amenities', icon: 'fa-solid fa-spa' },
   { href: '/admin/messages', label: 'Guest Messages', icon: 'fa-solid fa-envelope' }
 ];

@@ -51,10 +51,7 @@
           "label": "Gallery",
           "href": "/gallery"
         },
-        {
-          "label": "Amenities",
-          "href": "/amenities"
-        },
+
         {
           "label": "Contact Us",
           "href": "/contact"
@@ -62,8 +59,9 @@
       ],
       "contact": {
         "address": "Kotli Rd, New Mirpur City, Azad Jammu And Kashmir, 10250",
-        "phone": "+92 123 456 7890",
-        "email": "info@lotusinn.com"
+        "phone": "+92 346 3260347",
+        "landline": "058274 39595",
+        "email": "info@lotusinnguesthouse.com"
       },
       "socials": [
         {
@@ -508,11 +506,11 @@
       "items": [
         {
           "icon": "fa-solid fa-phone-volume",
-          "value": "+92 123 456 7890"
+          "value": "+92 346 3260347"
         },
         {
           "icon": "fa-solid fa-envelope",
-          "value": "info@lotusinn.com"
+          "value": "info@lotusinnguesthouse.com"
         },
         {
           "icon": "fa-solid fa-location-dot",
@@ -541,12 +539,12 @@
       {
         "icon": "fa-solid fa-phone-volume",
         "title": "Call Anytime",
-        "text": "+92 123 456 7890"
+        "text": "+92 346 3260347"
       },
       {
         "icon": "fa-solid fa-envelope-open-text",
         "title": "Email Support",
-        "text": "info@lotusinn.com"
+        "text": "info@lotusinnguesthouse.com"
       }
     ],
     "form": {
@@ -587,15 +585,15 @@
       "rows": [
         {
           "day": "Monday - Friday",
-          "time": "9:00 AM - 10:00 PM"
+          "time": "24/7 Available"
         },
         {
           "day": "Saturday",
-          "time": "10:00 AM - 11:00 PM"
+          "time": "Available"
         },
         {
           "day": "Sunday",
-          "time": "11:00 AM - 9:00 PM"
+          "time": "Available"
         },
         {
           "day": "Bookings & WhatsApp",

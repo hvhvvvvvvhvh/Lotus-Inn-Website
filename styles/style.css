@@ -169,7 +169,7 @@ margin-top: 15px;
 .cta-section {
   /* background: #f4efe9; */
   text-align: center;
-  padding: 10px 20px 80px 20px;
+  padding: 40px 20px 50px 20px!important;
 }
 .cta-section h2 {
   margin-bottom: 30px;position: relative;
@@ -193,7 +193,7 @@ display:flex;align-items:center;justify-content:center;
 width: 100%;height: 670px;top: 0;left: 0;right: 0;bottom: 0;
 background-color: rgb(34 0 137 / 10%);z-index: 1;}
 .hero-content{text-align:center;color:#fff;position:relative;z-index: 2;}
-.hero-content p {max-width: 592px;}
+.hero-content p {max-width: 592px; margin: 0 auto;}
 .booking-bar{margin-top:20px;background:#fff;padding:10px;border-radius:8px;display:flex;gap:10px}
 .booking-bar input{padding:10px;border:1px solid #ccc;border-radius: 3px;}
 .booking-bar a{background: #036045;color: #fff;font-weight:600;padding:13px 26px;border-radius: 100px;text-decoration: none;}
@@ -231,6 +231,7 @@ margin: 15px 0px 30px 0px;border-radius: 100px;text-decoration: none;}
 .footer-top p {
   font-size: 15px;font-weight: 700;color: #fff;
 }
+.footer-top a {text-decoration: none;}
 .socials a i {
   font-size: 28px;color: #fff;margin-right: 15px;
 }
@@ -1319,7 +1320,7 @@ margin: 15px 0px 30px 0px;border-radius: 100px;text-decoration: none;}
 .amenities-page-section{padding:25px 0}
 .amenities-cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1200px;margin:0 auto}
 .amenity-info-card{background:#fff;border-radius:18px;padding:24px;box-shadow:0 10px 28px rgba(15,44,82,.07);border:1px solid #e9eef5}
-.amenity-info-card h3{margin:0 0 10px;color:#0e2742;font-size:22px}.amenity-info-card h3 i{color:#036045;margin-right:8px}
+.amenity-info-card h3{margin:0 0 10px;color:#0e2742;font-size:20px}.amenity-info-card h3 i{color:#036045;margin-right:8px}
 .amenity-info-card p{margin:0 0 14px;color:#67748a;line-height:1.7}.amenity-info-card span{display:inline-block;background:#edf7f2;color:#036045;padding:8px 14px;border-radius:999px;font-weight:600;font-size:13px}
 .meal-plan-row{max-width:1200px;margin:22px auto 0;display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
 .meal-plan-chip{background:#fff;border:1px solid #e7edf5;border-radius:16px;padding:14px 18px;min-width:180px;box-shadow:0 8px 20px rgba(15,44,82,.06);text-align:center}.meal-plan-chip strong{display:block;color:#0e2742}.meal-plan-chip span{color:#036045;font-weight:700}
@@ -1626,6 +1627,7 @@ margin: 15px 0px 30px 0px;border-radius: 100px;text-decoration: none;}
     background: rgba(255, 255, 255, 0.12);
     text-shadow: none;
     transition: 0.25s ease;
+    display: block;
   }
   .menu a:hover,
   .menu a:active {
